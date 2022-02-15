@@ -2,18 +2,18 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
-export default function Home() {
+export default function About() {
   return (
     <div className="container">
       <Head>
-        <title>Saddlepoint</title>
+        <title>About Me</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Sadie Allen" />
+        <Header title="About Me" />
         <p className="description">
-          Personal website under construction... <code>pages/index.js</code>
+          Personal website <code>pages/index.js</code>
         </p>
       </main>
 
