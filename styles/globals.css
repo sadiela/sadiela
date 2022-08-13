@@ -33,3 +33,43 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.App {
+  text-align: left;
+  padding-top: 800px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  font-family: monospace;
+  background-color: rgb(254, 254, 254);
+}
+
+.maintitle {
+font-size: 40px;
+}
+
+.links:link {
+  color: rgb(255, 0, 255);
+  text-decoration: none
+}
+
+.links:visited {
+  color: rgb(255, 0, 255);
+  text-decoration: none
+}
+
+/* mouse over link */
+.links:hover {
+  color: rgb(105, 243, 255);
+}
+
+.photo1 {
+height:120px;
+width:120px;
+}
+
+.photo {
+height:70px;
+width:70px;
+text-align: center;
+}
