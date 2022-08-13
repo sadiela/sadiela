@@ -1,8 +1,5 @@
 
 import React from 'react'
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 import Bio from './Bio.js'
 import Music from './Music'
 import Publications from './Publications.js'
