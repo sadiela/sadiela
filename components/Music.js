@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import styles from './App.module.css'
+import styles from '@styles/App.module.css'
 
 export default class Music extends Component {
 
