@@ -1,6 +1,6 @@
 .App {
     text-align: left;
-    padding-top: 900px;
+    padding-top: 800px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -26,7 +26,9 @@
   .links:hover {
     color: rgb(105, 243, 255);
   }
-  
+
+
+  /*
   .photo1 {
   height:120px;
   width:120px;
@@ -36,4 +38,4 @@
   height:70px;
   width:70px;
   text-align: center;
-  }
+  }*/

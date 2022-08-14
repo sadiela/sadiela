@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import styles from '@styles/App.module.css'
+import styles from './App.module.css'
 
 export default class Publications extends Component {
     render() {
