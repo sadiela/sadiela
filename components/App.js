@@ -12,7 +12,7 @@ import styles from './App.module.css'
 export default function App() {
     return(
         <div className={styles.App}>
-            <h1 className={styles.maintitle} >Sadie Allen</h1>
+            <h1 fontFamily='monospace' fontSize='40px'>Sadie Allen</h1>
             <img width={120} height={120} src='/sadie_headshot.JPG' alt="Sadie" />
             <Bio/>
             <Publications/>

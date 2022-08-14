@@ -10,11 +10,15 @@ const Prettylink = styled.a`
     };
 `
 
+const PrettyPar = styled.p`
+    font-family: monospace;
+`
+
 export default class Publications extends Component {
     render() {
         return (
             <div>
-            <h1>Publications</h1>
+            <h1 fontFamily='monospace' >Publications</h1>
             <Prettylink target="_blank" href="https://www.bu.edu/peaclab/files/2022/01/Tritium-woc21.pdf">Tritium: A Cross-layer Analytics System for Enhancing Microservice Rollouts in the Cloud</Prettylink>
             <p></p>
             <Prettylink target="_blank" href="https://www.bu.edu/peaclab/files/2021/02/Middleware2020_Poster_final.pdf">Version Detection for Software Discovery in the Cloud</Prettylink>
