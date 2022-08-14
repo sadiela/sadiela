@@ -5,11 +5,13 @@ import styled from 'styled-components'
 const linkStyle1 = {
     color: 'rgb(255, 0, 255)',
     textDecoration: 'none',
+    fontFamily: 'monospace',
 }
 
 const linkStyle2 = {
     color: 'rgb(255, 0, 255)',
     textDecoration: 'none',
+    fontFamily: 'monospace',
 }
 
 export default class Contact extends Component {
