@@ -12,7 +12,7 @@
   font-size: 40px;
   }
     
-.links:link {
+/*.links:link {
   color: rgb(255, 0, 255);
   text-decoration: none
 }
@@ -20,7 +20,7 @@
 .links:visited {
   color: rgb(255, 0, 255);
   text-decoration: none
-}
+}*/
 
 /* mouse over link */
 .links:hover {
