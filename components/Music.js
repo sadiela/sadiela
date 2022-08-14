@@ -1,6 +1,15 @@
 
 import React, { Component } from 'react';
 import styles from './App.module.css'
+import styled from 'styled-components'
+
+const Prettylink = styled.a`
+    color: rgb(255, 0, 255);
+    text-decoration: none;
+    &:hover {
+        color: rgb(105, 243, 255);
+    };
+`
 
 export default class Music extends Component {
 
@@ -13,17 +22,17 @@ export default class Music extends Component {
             </p>
             <div> 
             <img width={70} height={70} src="/chameleon_art.JPG" alt="Chameleon" />
-            <a className={styles.links} target="_blank" href="https://open.spotify.com/track/1edrDCCYZnHl1ZITwbhZCv?si=0c96444f12cd4195">Chameleon</a>
+            <Prettylink target="_blank" href="https://open.spotify.com/track/1edrDCCYZnHl1ZITwbhZCv?si=0c96444f12cd4195">Chameleon</Prettylink>
             </div>
             <p></p>
             <div>
             <img width={70} height={70} src="/postit_art.JPG" alt="Post-it Notes" />
-            <a className={styles.links} target="_blank" href="https://open.spotify.com/track/79CMPiou9MRItInwoISxE2?si=601d0e7c35e14e9f">Post-it Notes</a>
+            <Prettylink target="_blank" href="https://open.spotify.com/track/79CMPiou9MRItInwoISxE2?si=601d0e7c35e14e9f">Post-it Notes</Prettylink>
             </div>
             <p></p>
             <div>
             <img width={70} height={70} src="/fall_art.JPG" alt="Fall" />
-            <a className={styles.links} target="_blank" href="https://open.spotify.com/track/2AnoStLX3FwUfguuSPOQEl?si=c4ba71de2f614fce">Fall</a>
+            <Prettylink target="_blank" href="https://open.spotify.com/track/2AnoStLX3FwUfguuSPOQEl?si=c4ba71de2f614fce">Fall</Prettylink>
             </div>
           </div>
         )

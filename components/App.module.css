@@ -11,31 +11,3 @@
   .maintitle {
   font-size: 40px;
   }
-  
-  .links:link {
-    color: rgb(255, 0, 255);
-    text-decoration: none
-  }
-  
-  .links:visited {
-    color: rgb(255, 0, 255);
-    text-decoration: none
-  }
-  
-  /* mouse over link */
-  .links:hover {
-    color: rgb(105, 243, 255);
-  }
-
-
-  /*
-  .photo1 {
-  height:120px;
-  width:120px;
-  }
-  
-  .photo {
-  height:70px;
-  width:70px;
-  text-align: center;
-  }*/

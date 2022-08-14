@@ -1,7 +1,14 @@
 
 import React, { Component } from 'react';
-import styles from './App.module.css'
+import styled from 'styled-components'
 
+const Prettylink = styled.a`
+    color: rgb(255, 0, 255);
+    text-decoration: none;
+    &:hover {
+        color: rgb(105, 243, 255);
+    };
+`
 
 export default class Contact extends Component {
 
@@ -15,9 +22,9 @@ export default class Contact extends Component {
             <p> 
             Twitter: @saddlepoint18
             </p>
-            <a className={styles.links} target="_blank" href="https://www.linkedin.com/in/sadie-a-09629795/">LinkedIn</a>
+            <Prettylink target="_blank" href="https://www.linkedin.com/in/sadie-a-09629795/">LinkedIn</Prettylink>
             <p></p>
-            <a className={styles.links} target="_blank" href="https://github.com/sadiela">GitHub</a>
+            <Prettylink target="_blank" href="https://github.com/sadiela">GitHub</Prettylink>
           </div>
         )
     }
