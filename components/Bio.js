@@ -1,6 +1,12 @@
 
 import React, { Component } from 'react';
 
+const linkStyle1 = {
+    color: 'rgb(255, 0, 255)',
+    textDecoration: 'none',
+    fontFamily: 'monospace',
+}
+
 export default class Bio extends Component {
 
     render() {
@@ -13,6 +19,10 @@ export default class Bio extends Component {
             <p style={{ fontFamily: 'monospace' }}>
                 In my free time, I enjoy running, hiking, singing, and writing and producing music. I am also a fan of board games and word games like Boggle and Bananagrams. 
             </p>
+            <p></p>
+            <a style={linkStyle1} href="/sadie_allen_resume_2022_ENG.pdf"> Resume </a>
+            <p></p>
+            <a style={linkStyle1} href="/sadie_allen_resume_2022_ENG.pdf"> Curriculum Vitae </a>
           </div>
         )
     }
