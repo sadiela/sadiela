@@ -22,7 +22,7 @@ export default class Bio extends Component {
             <p></p>
             <a style={linkStyle1} href="/sadie_allen_resume_2022_ENG.pdf"> Resume </a>
             <p></p>
-            <a style={linkStyle1} href="/sadie_allen_cv_2022_ENG.pdf"> Curriculum Vitae </a>
+            <a style={linkStyle1} href="/sadie_allen_cv_2022.pdf"> Curriculum Vitae </a>
           </div>
         )
     }
