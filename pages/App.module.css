@@ -1,6 +1,5 @@
 .App {
     text-align: left;
-    padding-top: 800px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 20px;
@@ -10,6 +9,11 @@
 
   .maintitle {
   font-size: 40px;
+  }
+
+  .Link {
+    color: rgb(255, 0, 255);
+    text-decoration: none
   }
     
 /*.links:link {

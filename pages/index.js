@@ -1,9 +1,14 @@
-import React from 'react';
-import App from '@components/App';
+import App from './App';
+import React, { Component } from 'react';
+import Head from 'next/head';
 
-export default function Home() {
+export default function Index() {
   return (
     <div className="container">
+      <Head>
+        <title>Sadie Allen Personal Website</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <App/>
     </div>
   )
