@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import Layout from '@components/layout';
 import Navigate from '@components/navigate'
+import ReactPlayer from "react-player";
 
 
 export default class Music extends Component {
@@ -18,6 +19,13 @@ export default class Music extends Component {
                     <div> 
                     <img width={70} height={70} src="/chameleon_art.JPG" alt="Chameleon" />
                     <a target="_blank" href="https://open.spotify.com/track/1edrDCCYZnHl1ZITwbhZCv?si=0c96444f12cd4195">  Chameleon</a>
+                    <ReactPlayer
+                        url="/Chameleon.wav"
+                        width="400px"
+                        height="50px"
+                        playing={false}
+                        controls={true}
+                    />
                     </div>
                     <p></p>
                     <div>
