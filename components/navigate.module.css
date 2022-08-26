@@ -1,6 +1,15 @@
+.linkclass {
+  color: #faa573;
+  font-family: monospace;
+  font-weight:bold;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-left: 30px;
+} 
+
 .navigate {
-    text-align: center;
-    max-width: 100rem;
-    padding: 0 1rem;
-    margin: 3rem auto 6rem;
-  }
+  text-align: center;
+  max-width: 100rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}

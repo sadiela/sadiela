@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '@components/layout';
 import Navigate from '@components/navigate'
+import Head from 'next/head';
 
 
 export default class Miscellaneous extends Component {
@@ -8,6 +9,9 @@ export default class Miscellaneous extends Component {
     render() {
         return (
             <div>
+            <Head>
+                <title>Sadie Allen: Miscellaneous</title>
+            </Head>
             <Navigate/>
             <Layout>
                 <h1 style={{ fontFamily: 'monospace' }}>Miscellaneous</h1>
@@ -17,6 +21,14 @@ export default class Miscellaneous extends Component {
                 <a target="_blank" href="https://open.spotify.com/episode/6wvf1SoREJykZirFNVrkq4?si=f5b71680ed914e2e">Freakonomics Radio: 429. Is Economic Growth the Wrong Goal?</a>
                 <p></p>            
                 <a target="_blank" href="https://open.spotify.com/episode/25o1anoDWqRA2JP932ejpl?si=a4498a059adc4fdc">Hidden Brain: Creating God</a>
+                <p></p>            
+                <a target="_blank" href="https://open.spotify.com/episode/1HrqYxTctwCWM0f1ie4m51?si=dd1d2c9f19b84d9b">Hidden Brain: Edge Effect</a>
+                <h2 style={{ fontFamily: 'monospace' }}>Books I've greatly enjoyed</h2>
+                <a target="_blank" href="https://wwnorton.com/books/9780393652208">Useful Delusions - Shankar Vedantam</a>
+                <p></p>
+                <a target="_blank" href="https://www.goodreads.com/book/show/53487334-the-best-of-me">The Best of Me - David Sedaris</a>
+                <p></p>            
+                <a target="_blank" href="https://www.goodreads.com/en/book/show/56353777-the-cabinet#CommunityReviews">The Cabinet - Un Su Kim</a>
             </Layout>
             </div>
         )

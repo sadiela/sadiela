@@ -2,12 +2,16 @@
 import React, { Component } from 'react';
 import Layout from '@components/layout';
 import Navigate from '@components/navigate'
+import Head from 'next/head';
 
 
 export default class Publications extends Component {
     render() {
         return (
             <div>
+                <Head>
+                    <title>Sadie Allen: Publications</title>
+                </Head>
                 <Navigate/>
                 <Layout>
                     <h1 style={{ fontFamily: 'monospace' }} >Publications</h1>
