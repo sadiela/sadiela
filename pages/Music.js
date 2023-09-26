@@ -40,6 +40,11 @@ export default class Music extends Component {
                     <img width={70} height={70} src="/fall_art.JPG" alt="Fall" />
                     <a target="_blank" href="https://open.spotify.com/track/2AnoStLX3FwUfguuSPOQEl?si=c4ba71de2f614fce"> Fall</a>
                     </div>
+                    <p></p>
+                    <div>
+                    <img width={70} height={70} src="/placeholder_art.jpg" alt="Placeholder" />
+                    <a target="_blank" href="https://open.spotify.com/track/5dI1LlweTSR9VZ2ScDHFUx?si=8f409d8cf68048dc"> Placeholder</a>
+                    </div>
                     <h1 style={{ fontFamily: 'monospace' }}>Personal Playlists</h1>
                     <p>Enjoy some hyper-specific playlists curated by me!</p>
                     <a target="_blank" href="https://open.spotify.com/playlist/2RfYWFbnkHNqK58NIuTS49?si=177955c615364eff">Men in *falsetto*</a>
