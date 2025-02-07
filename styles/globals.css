@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #faa573;
+  color: #2b65ff;
   font-family: monospace;
   font-weight:bold;
   text-decoration: none;
@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #ff7300;
+  color: #0046ff;
   text-decoration: underline;
 }
 
