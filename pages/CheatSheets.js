@@ -16,10 +16,10 @@ export default class CheatSheets extends Component {
                 <Layout>
                     <h1 className="title" style={{ fontFamily: 'monospace' }}>Cheat Sheets</h1>
                     <p style={{ fontFamily: 'monospace' }}>
-                        Throughout college, I made a bunch of guides or "cheat sheets" for my engineering classes to help me study for tests. I've typed some of them up as references for anyone who wants to use them!
+                        Throughout college, I made a bunch of guides or "cheat sheets" for my engineering classes to help me study for tests. I've uploaded PDF versions as references for anyone who wants to use them! Hopefully I can type them up at some point as well.
                     </p>
                     <p></p>
-                    <p>Coming soon...</p>
+                    <p><a href="cheatsheets/data_structures_algorithms.pdf"> Curriculum Vitae </a></p>
                 </Layout>
             </div>
         
