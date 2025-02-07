@@ -7,7 +7,7 @@ export default function Index() {
     <div className="container">
       <Head>
         <title>Sadie Allen's Personal Website</title>
-        <link rel="icon" href="/icon8-s-32.ico" />
+        <link rel="icon" href="/icons8-s-32.ico" />
       </Head>
       <Bio/>
     </div>
