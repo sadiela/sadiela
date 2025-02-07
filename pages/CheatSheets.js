@@ -19,7 +19,7 @@ export default class CheatSheets extends Component {
                         Throughout college, I made a bunch of guides or "cheat sheets" for my engineering classes to help me study for tests. I've uploaded PDF versions as references for anyone who wants to use them! Hopefully I can type them up at some point as well.
                     </p>
                     <p></p>
-                    <p><a href="cheatsheets/data_structures_algorithms.pdf"> Curriculum Vitae </a></p>
+                    <p><a href="cheatsheets/data_structures_algorithms.pdf"> Data Structures and Algorithms</a></p>
                 </Layout>
             </div>
         
