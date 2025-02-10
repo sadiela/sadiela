@@ -17,9 +17,9 @@ export default class Bio extends Component {
                 <div class="row">
                 <div class="column">
                     <Image style={{borderRadius: "50%"}}
-                        src="/sadie_headshot.jpg" // Route of the image file
-                        height={250} // Desired size with correct aspect ratio
-                        width={250} // Desired size with correct aspect ratio
+                        src="/sadie_headshot_2.jpeg" // Route of the image file
+                        height={300} // Desired size with correct aspect ratio
+                        width={300} // Desired size with correct aspect ratio
                         alt="Sadie Allen"/>
                 </div>
                 <div class="column">
@@ -35,7 +35,6 @@ export default class Bio extends Component {
                     <StyledLink href="/sadie_allen_resume_2025.pdf"> Resume </StyledLink>
                 </div>
                 </div>
-
 
                 </Layout>
             </div>
