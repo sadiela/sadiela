@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Layout from '@components/layout';
 import Navigate from '@components/navigate'
 import Head from 'next/head';
+import {StyledLink} from '../styles/StyleConstants'
+
 
 export default class CheatSheets extends Component {
 
@@ -19,23 +21,23 @@ export default class CheatSheets extends Component {
                         Throughout college, I made a bunch of guides or "cheat sheets" for my engineering classes to help me study for tests. I've uploaded PDF versions as references for anyone who wants to use them! Hopefully I can type them up at some point as well.
                     </p>
                     <p></p>
-                    <p><a href="cheatsheets/advanced_optimization.pdf">Advanced Optimization</a></p>
+                    <p><StyledLink href="cheatsheets/advanced_optimization.pdf">Advanced Optimization</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/data_structures_algorithms.pdf">Data Structures and Algorithms</a></p>
+                    <p><StyledLink href="cheatsheets/data_structures_algorithms.pdf">Data Structures and Algorithms</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/differential_equations.pdf">Differential Equations</a></p>
+                    <p><StyledLink href="cheatsheets/differential_equations.pdf">Differential Equations</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/latin_grammar.pdf">Latin Grammar</a></p>
+                    <p><StyledLink href="cheatsheets/latin_grammar.pdf">Latin Grammar</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/linear_optimization.pdf">Linear Optimization</a></p>
+                    <p><StyledLink href="cheatsheets/linear_optimization.pdf">Linear Optimization</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/machine_learning.pdf">Machine Learning</a></p>
+                    <p><StyledLink href="cheatsheets/machine_learning.pdf">Machine Learning</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/multivariate_calculus.pdf">Multivariate Calculus</a></p>
+                    <p><StyledLink href="cheatsheets/multivariate_calculus.pdf">Multivariate Calculus</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/data_structures_algorithms.pdf"> Data Structures and Algorithms</a></p>
+                    <p><StyledLink href="cheatsheets/signals_and_systems.pdf">Signals and Systems</StyledLink></p>
                     <p></p>
-                    <p><a href="cheatsheets/data_structures_algorithms.pdf"> Data Structures and Algorithms</a></p>
+                    <p><StyledLink href="cheatsheets/stochastic_processes.pdf">Stochastic Processes</StyledLink></p>
                 </Layout>
             </div>
         

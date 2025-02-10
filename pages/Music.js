@@ -20,15 +20,11 @@ export default class Music extends Component {
                     <p style={{ fontFamily: 'monospace' }}>
                     In my spare time, I like to write and produce my own songs with my good friend Sal Meblin under the pseudonym <a style={{ paddingRight: '3px', paddingLeft:'3px' }} target="_blank" href="https://open.spotify.com/artist/2yI5NePXpc9Q8v9x9vSqMB?si=QWZq8ynxRpCGth_RZYjfPQ">ESSE</a>. All of my songs were recorded in my apartment and produced in Ableton Live. I'm currently working on my first EP! Check out all of my released music below:
                     </p>
+                    <div class="row">
+                    <div class="column">
                     <div> 
                     <img width={70} height={70} src="/chameleon_art.JPG" alt="Chameleon" />
                     <a target="_blank" href="https://open.spotify.com/track/1edrDCCYZnHl1ZITwbhZCv?si=0c96444f12cd4195">  Chameleon</a>
-                    <ReactPlayer
-                        url="/Chameleon.wav"
-                        width="400px"
-                        height="50px"
-                        playing={false}
-                        controls={true}/>
                     </div>
                     <p></p>
                     <div>
@@ -36,6 +32,8 @@ export default class Music extends Component {
                     <a target="_blank" href="https://open.spotify.com/track/79CMPiou9MRItInwoISxE2?si=601d0e7c35e14e9f"> Post-it Notes</a>
                     </div>
                     <p></p>
+                    </div>
+                    <div class="column">
                     <div>
                     <img width={70} height={70} src="/fall_art.JPG" alt="Fall" />
                     <a target="_blank" href="https://open.spotify.com/track/2AnoStLX3FwUfguuSPOQEl?si=c4ba71de2f614fce"> Fall</a>
@@ -44,6 +42,8 @@ export default class Music extends Component {
                     <div>
                     <img width={70} height={70} src="/placeholder_art.jpg" alt="Placeholder" />
                     <a target="_blank" href="https://open.spotify.com/track/5dI1LlweTSR9VZ2ScDHFUx?si=8f409d8cf68048dc"> Placeholder</a>
+                    </div>
+                    </div>
                     </div>
                     <h1 style={{ fontFamily: 'monospace' }}>Personal Playlists</h1>
                     <p>Enjoy some hyper-specific playlists curated by me!</p>
@@ -58,3 +58,12 @@ export default class Music extends Component {
         )
     }
 }
+
+/* 
+<ReactPlayer
+url="/Chameleon.wav"
+width="400px"
+height="50px"
+playing={false}
+controls={true}/>
+*/

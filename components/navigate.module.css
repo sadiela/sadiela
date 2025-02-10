@@ -1,5 +1,7 @@
 .linkclass {
   color: #faa573;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
   font-family: monospace;
   font-weight:bold;
   text-decoration: none;
@@ -7,9 +9,14 @@
   padding-left: 30px;
 } 
 
+.linkclass:hover {
+  color: #2b65ff;
+}
+
 .navigate {
   text-align: center;
   max-width: 100rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
+  font-size: 25px;
 }
