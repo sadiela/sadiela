@@ -15,6 +15,7 @@ export default class PersonalProjects extends Component {
                     <title>Sadie Allen: Personal Projects</title>
                 </Head>
                 <Navigate/>
+                <div class='contentbox'>
                 <Layout>
                     <h1 style={{ fontFamily: 'monospace' }}>Personal Projects</h1>
                     <h2 style={{ fontFamily: 'monospace' }}><a target="_blank" href="https://github.com/sadiela/spotimy">Spotimy</a></h2>
@@ -26,6 +27,7 @@ export default class PersonalProjects extends Component {
                     ContextCheck was the end product of my senior design project in undergrad. The crux of the project is a BERT-based learning algorithm that detects biased language in news articles. We created ContextCheck in the hopes of combating political polarization exacerbated by algorithms designed to maximize clicks. I plan to host ContextCheck publicly in the near future. 
                     </p>
                 </Layout>
+                </div>
             </div>
         )
     }

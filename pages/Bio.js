@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import Layout from '@components/layout';
 import Navigate from '@components/navigate'
+import {GitHubLink, ImageLink} from '@components/githublink';
 import Image from 'next/image';
 import {StyledLink} from '../styles/StyleConstants'
 
@@ -12,15 +13,20 @@ export default class Bio extends Component {
     render() {
         return (
             <div>
-                <Navigate></Navigate>
+                <Navigate/>
                 <Layout>
-                    <div class="row">
+                    <div class="biorow">
                         <div class="columnleft">
                             <Image style={{borderRadius: "50%"}}
                                 src="/sadie_headshot_2.jpeg" // Route of the image file
                                 height={300} // Desired size with correct aspect ratio
                                 width={300} // Desired size with correct aspect ratio
-                                alt="Sadie Allen"/>
+                                alt="Sadie Allen"/>    
+                            <div style={{paddingTop:'30px', alignContent:'center'}}>                  
+                            <ImageLink image={"/gmail_logo.png"} link={"mailto:sadiela@bu.edu"}/>
+                            <ImageLink image={"/linkedin_logo.png"} link={"https://www.linkedin.com/in/sadie-a-09629795/"}/>
+                            <ImageLink image={"/github_clean_2.png"} link={"https://github.com/sadiela"}/>
+                            </div>  
                         </div>
                         <div class="columnright">
                                 <h1 style={{ fontFamily: 'monospace', fontSize:'30px'}}>Sadie Allen</h1>

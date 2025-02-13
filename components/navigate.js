@@ -18,6 +18,5 @@ export default function Navigate() {
         <Link href="/CheatSheets">Cheat Sheets</Link>       
         <Link href="/Music">Music</Link>  
         <Link href="/Miscellaneous">Miscellaneous</Link> 
-        <Link href="/Contact">Contact Me</Link>         
     </h3>;
 }

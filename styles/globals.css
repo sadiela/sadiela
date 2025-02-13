@@ -6,13 +6,26 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: #84a5ff;
+  background-color: #84a5ff;/*#84a5ff;*/
   font-family: monospace;
   line-height: 1.6;
   font-size: 16px;
-  color: white;
+  display: flex;
+  justify-content: center;
+  color: white /*white;*/
   /*border-block-end-style: solid;
   border-block-end-width: 15px;*/
+}
+
+.musiccontainer {
+  height: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.musiclink {
+  padding-left: 20px;
 }
 
 /*
@@ -28,7 +41,7 @@ body {
 .columnleft {
   padding-top: 15%;
   /*background-color: green;*/
-  float: left;
+  /*float: left;*/
   flex: 30%;
 }
 
@@ -39,8 +52,10 @@ body {
   flex: 65%;
 }
 
-.row{
-  /*background-color: white;*/
+.biorow{
+  background-color: #84a5ff;;
+  padding: 15px;
+  border-radius: 30px;
   display: flex
 }
 /* Clear floats after the columns */
@@ -53,6 +68,17 @@ body {
 
 img {
   display: block;
+}
+
+.photolink{
+  margin: 0;
+}
+.linkphoto{
+  background-color: #84a5ff;
+  margin:0
+}
+.linkphoto:hover{
+  opacity: 0.5
 }
 
 Image {
@@ -73,5 +99,12 @@ a {
 a:hover {
   color: #0046ff;
   text-decoration: underline;
+}
+
+.contentbox{
+  background-color: #84a5ff;;
+  /*padding: 10px;*/
+  border-radius: 30px;
+  display: flex
 }
 
