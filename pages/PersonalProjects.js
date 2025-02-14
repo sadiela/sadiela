@@ -18,6 +18,8 @@ export default class PersonalProjects extends Component {
                 <div class='contentbox'>
                 <Layout>
                     <h1 style={{ fontFamily: 'monospace' }}>Personal Projects</h1>
+                    <h2 style={{fontFamily:'monospace'}}><a target="_blank" href="https://github.com/sadiela/voiceleading-rl">Q-Harmony</a></h2>
+                    <p>In this research project, I applied the Q-learning algorithm to the problem of voice leading in tonal harmony.</p>
                     <h2 style={{ fontFamily: 'monospace' }}><a target="_blank" href="https://github.com/sadiela/spotimy">Spotimy</a></h2>
                     <p style={{ fontFamily: 'monospace' }}>
                     Spotimy was my final project for my software engineering course. It allows users to filter their personal Spotify playlist according to "audio features" defined by Spotify's API and save these filtered playlists to their account. The front end is written in React and the backend uses Flask. It is currently in development mode. To get on the dev tester list, please email me at sadiela@bu.edu!

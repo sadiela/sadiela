@@ -53,6 +53,7 @@ body {
 }
 
 .biorow{
+  width: 100%;
   background-color: #84a5ff;;
   padding: 15px;
   border-radius: 30px;
