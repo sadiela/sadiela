@@ -24,24 +24,24 @@ export default class Music extends Component {
                     <div class="row">
                         <div class="column">
                             <div class='musiccontainer'> 
-                            <img width={70} height={70} src="/chameleon_art.JPG" alt="Chameleon" />
+                            <img width={70} height={70} src="/imgs/chameleon_art.JPG" alt="Chameleon" />
                             <a class="musiclink" target="_blank" href="https://open.spotify.com/track/1edrDCCYZnHl1ZITwbhZCv?si=0c96444f12cd4195">  Chameleon</a>
                             </div>
                         <p></p>
                             <div class='musiccontainer'>
-                            <img width={70} height={70} src="/postit_art.JPG" alt="Post-it Notes" />
+                            <img width={70} height={70} src="/imgs/postit_art.JPG" alt="Post-it Notes" />
                             <a class="musiclink" target="_blank" href="https://open.spotify.com/track/79CMPiou9MRItInwoISxE2?si=601d0e7c35e14e9f"> Post-it Notes</a>
                             </div>
                         <p></p>
                         </div>
                         <div class="column">
                             <div class='musiccontainer'>
-                            <img width={70} height={70} src="/fall_art.JPG" alt="Fall" />
+                            <img width={70} height={70} src="/imgs/fall_art.JPG" alt="Fall" />
                             <a class="musiclink" target="_blank" href="https://open.spotify.com/track/2AnoStLX3FwUfguuSPOQEl?si=c4ba71de2f614fce"> Fall</a>
                             </div>
                         <p></p>
                             <div class='musiccontainer'>
-                            <img width={70} height={70} src="/placeholder_art.jpg" alt="Placeholder" />
+                            <img width={70} height={70} src="/imgs/placeholder_art.jpg" alt="Placeholder" />
                             <a class="musiclink" target="_blank" href="https://open.spotify.com/track/5dI1LlweTSR9VZ2ScDHFUx?si=8f409d8cf68048dc"> Placeholder</a>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 html {
-  border-left: 40px solid white;
-  border-right: 40px solid white;
+  border-left: 3vw solid white;
+  border-right: 3vw solid white;
 }
 
 body {
@@ -70,12 +70,18 @@ img {
   display: block;
 }
 
+.photolinks_div{
+  padding-top: 10px;
+  text-align: center;
+}
+
 .photolink{
-  margin: 0;
+  display: inline-block;
+  text-align: center;
+  padding-left: 0.3em;
 }
 .linkphoto{
   background-color: #84a5ff;
-  margin:0
 }
 .linkphoto:hover{
   opacity: 0.5

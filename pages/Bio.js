@@ -18,14 +18,14 @@ export default class Bio extends Component {
                     <div class="biorow">
                         <div class="columnleft">
                             <Image style={{borderRadius: "50%"}}
-                                src="/sadie_headshot_2.jpeg" // Route of the image file
+                                src="/imgs/sadie_headshot_2.jpeg" // Route of the image file
                                 height={300} // Desired size with correct aspect ratio
                                 width={300} // Desired size with correct aspect ratio
                                 alt="Sadie Allen"/>    
-                            <div style={{paddingTop:'30px', alignContent:'center'}}>                  
-                            <ImageLink image={"/gmail_logo.png"} link={"mailto:sadiela@bu.edu"}/>
-                            <ImageLink image={"/linkedin_logo.png"} link={"https://www.linkedin.com/in/sadie-a-09629795/"}/>
-                            <ImageLink image={"/github_clean_2.png"} link={"https://github.com/sadiela"}/>
+                            <div class="photolinks_div">                  
+                            <ImageLink image={"/imgs/gmail_logo.png"} link={"mailto:sadiela@bu.edu"}/>
+                            <ImageLink image={"/imgs/linkedin_logo.png"} link={"https://www.linkedin.com/in/sadie-a-09629795/"}/>
+                            <ImageLink image={"/imgs/github_clean_2.png"} link={"https://github.com/sadiela"}/>
                             </div>  
                         </div>
                         <div class="columnright">
@@ -37,9 +37,9 @@ export default class Bio extends Component {
                                     In my free time, I enjoy running, hiking, singing, and writing and producing music. 
                                 </p>
                                 <p></p>
-                                <StyledLink href="/sadie_allen_cv_2024_public.pdf"> Curriculum Vitae </StyledLink>
+                                <StyledLink href="/resumes_cvs/sadie_allen_cv_2024_public.pdf"> Curriculum Vitae </StyledLink>
                                 <p></p>
-                                <StyledLink href="/sadie_allen_resume_2025.pdf"> Resume </StyledLink>
+                                <StyledLink href="/resumes_cvs/sadie_allen_resume_2025.pdf"> Resume </StyledLink>
                         </div>
                     </div>
                 </Layout>
