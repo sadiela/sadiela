@@ -39,7 +39,7 @@ export default class Bio extends Component {
                                 <p></p>
                                 <StyledLink href="/resumes_cvs/sadie_allen_cv_2024_public.pdf"> Curriculum Vitae </StyledLink>
                                 <p></p>
-                                <StyledLink href="/resumes_cvs/sadie_allen_resume_2025.pdf"> Resume </StyledLink>
+                                <StyledLink href="/resumes_cvs/sadie_allen_resume_5_2025.pdf"> Resume </StyledLink>
                         </div>
                     </div>
                 </Layout>
