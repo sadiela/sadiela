@@ -11,7 +11,7 @@ export const linkStyle = {
 }
 
 export default function Navigate() {
-    return <h3 className={style.navigate}>
+    return <h3 className="nav">
         <Link href="/Bio">Bio</Link> 
         <Link href="/PersonalProjects">Personal Projects</Link> 
         <Link href="/Publications">Publications</Link>   

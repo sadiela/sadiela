@@ -15,7 +15,7 @@ export default class CheatSheets extends Component {
                     <title>Sadie Allen: Cheat Sheets</title>
                 </Head>
                 <Navigate/>
-                <div class='contentbox'>
+                <div class='biorow'>
                     <Layout>
                         <h1 className="title" style={{ fontFamily: 'monospace' }}>Cheat Sheets</h1>
                         <p style={{ fontFamily: 'monospace' }}>

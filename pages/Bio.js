@@ -14,8 +14,9 @@ export default class Bio extends Component {
         return (
             <div>
                 <Navigate/>
+                <div class="biorow">
                 <Layout>
-                    <div class="biorow">
+                <div class="biorow2">
                         <div class="columnleft">
                             <Image style={{borderRadius: "50%"}}
                                 src="/imgs/sadie_headshot_2.jpeg" // Route of the image file
@@ -41,8 +42,9 @@ export default class Bio extends Component {
                                 <p></p>
                                 <StyledLink href="/resumes_cvs/sadie_allen_resume_5_2025.pdf"> Resume </StyledLink>
                         </div>
-                    </div>
+                        </div>
                 </Layout>
+                </div>
                 </div>        
         )
     }
