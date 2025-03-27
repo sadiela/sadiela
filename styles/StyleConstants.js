@@ -19,7 +19,7 @@ export const hoveredStyle = {
 
 
 export const StyledLink = styled.a
-  `color: #4dff39;
+  `color: #b7ffb0;
   font-family: monospace;
   font-weight:bold;
   text-decoration: none;
