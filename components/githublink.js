@@ -1,8 +1,8 @@
 import React from "react";
 
-export function ImageLink({image,link}) {
+export function ImageLink({image,link, width}) {
     return (
-        <a class="photolink" href={link} target="_blank" rel="noopener noreferrer"><img class="linkphoto" src={image} alt="No Image Found" style={{ width: 40 }} /></a>
+        <a class="photolink" href={link} target="_blank" rel="noopener noreferrer"><img class="linkphoto" src={image} alt="No Image Found" style={{ width: width}} /></a>
     );
   };
 

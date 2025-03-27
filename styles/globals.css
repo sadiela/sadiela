@@ -5,13 +5,13 @@
   border-color: red;
 }*/
 :root {
-  --custom-color: #75c2f9;
-  --link-color: #3575b0;
+  --custom-color: #35abff;
+  --link-color: #b7ffb0;
 }
 
 h3.nav {
   /*background-color: red;*/
-  color:#79B473;
+  color:#4dff39;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -21,7 +21,7 @@ h3.nav {
 body {
   padding: 0;
   margin: 10px;
-  background-color: white;/*#84a5ff;*/
+  background-color: rgb(39, 39, 39);/*#84a5ff;*/
   font-family: monospace;
   line-height: 1.6;
   font-size: 16px;
@@ -45,7 +45,7 @@ body {
 }*/
 
 .column {
-  padding-left: 6em;
+  /*padding-left: 6em;*/
   float: left;
   flex: 50%;
 }
@@ -97,7 +97,7 @@ img {
 .photolink{
   display: inline-block;
   text-align: center;
-  padding-left: 0.3em;
+  /*padding-left: 0.3em;*/
 }
 .linkphoto{
   background-color: var(--custom-color);
@@ -106,7 +106,7 @@ img {
   opacity: 0.5
 }
 
-Image {
+ImageLink {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -133,3 +133,63 @@ a:hover {
   display: flex
 }
 
+.songLink{
+  color: black;
+}
+.songLink:hover{
+  color: #0011ff;
+}
+
+.img_container {
+  display: inline-block; /* Shrinks to fit the content */
+  position: relative; /* Allows for positioning if needed */
+  width: fit-content; /* Ensures the container wraps tightly around the image */
+  height: fit-content; /* Ensures the container wraps tightly around the image */
+  padding: 0; /* Removes any extra padding */
+  margin: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  opacity: 0;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  transition: opacity 0.25s;
+  background-color: #008CBA;
+  color: black;
+}
+
+.img_overlay:hover {
+  opacity: 0.9;
+  background: white; 
+}
+
+.img_overlay > * {
+  font-size: 1rem;
+  padding: 0.313rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.musicColumn{
+  display: flex;
+  gap: 1rem
+}
+
+.musicRow{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}

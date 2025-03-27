@@ -24,9 +24,9 @@ export default class Bio extends Component {
                                 width={300} // Desired size with correct aspect ratio
                                 alt="Sadie Allen"/>    
                             <div class="photolinks_div">                  
-                            <ImageLink image={"/imgs/gmail_logo.png"} link={"mailto:sadiela@bu.edu"}/>
-                            <ImageLink image={"/imgs/linkedin_logo.png"} link={"https://www.linkedin.com/in/sadie-a-09629795/"}/>
-                            <ImageLink image={"/imgs/github_clean_2.png"} link={"https://github.com/sadiela"}/>
+                            <ImageLink image={"/imgs/gmail_logo.png"} link={"mailto:sadiela@bu.edu"} width={40}/>
+                            <ImageLink image={"/imgs/linkedin_logo.png"} link={"https://www.linkedin.com/in/sadie-a-09629795/"} width={40}/>
+                            <ImageLink image={"/imgs/github_clean_2.png"} link={"https://github.com/sadiela"} width={40}/>
                             </div>  
                         </div>
                         <div class="columnright">

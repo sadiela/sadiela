@@ -5,6 +5,9 @@ import Navigate from '@components/navigate'
 import ReactPlayer from "react-player";
 import Head from 'next/head';
 import {StyledLink, MusicLink} from 'styles/StyleConstants';
+import {GitHubLink, ImageLink} from '@components/githublink';
+
+//  <ImageLink image={"/imgs/chameleon_art.JPG"} link={"https://open.spotify.com/track/79CMPiou9MRItInwoISxE2?si=601d0e7c35e14e9f"} width={150}/>    
 
 
 export default class Music extends Component {
@@ -20,30 +23,38 @@ export default class Music extends Component {
                 <Layout>
                     <h1 style={{ fontFamily: 'monospace' }}>Music</h1>
                     <p style={{ fontFamily: 'monospace' }}>
-                    In my spare time, I like to write and produce my own songs with my good friend Sal Meblin under the pseudonym <a style={{color: "#588157", paddingRight: '3px', paddingLeft:'3px' }} target="_blank" href="https://open.spotify.com/artist/2yI5NePXpc9Q8v9x9vSqMB?si=QWZq8ynxRpCGth_RZYjfPQ">ESSE</a>. All of my songs were recorded in my apartment and produced in Ableton Live. I'm currently working on my first EP! Check out all of my released music below:
+                    In my spare time, I like to write and produce my own songs with my good friend Sal Meblin under the pseudonym <a style={{paddingRight: '3px', paddingLeft:'3px' }} target="_blank" href="https://open.spotify.com/artist/2yI5NePXpc9Q8v9x9vSqMB?si=QWZq8ynxRpCGth_RZYjfPQ">ESSE</a>. All of my songs were recorded in my apartment and produced in Ableton Live. I'm currently working on my first EP! Check out all of my released music below:
                     </p>
-                    <div class="row">
-                        <div class="column">
-                            <div class='musiccontainer'> 
-                            <img width={70} height={70} src="/imgs/chameleon_art.JPG" alt="Chameleon" />
-                            <MusicLink href="https://open.spotify.com/track/1edrDCCYZnHl1ZITwbhZCv?si=0c96444f12cd4195">Chameleon</MusicLink>
+                    <div class="musicRow">
+                        <div class="musicColumn">
+                            <div className='img_container'> 
+                            <img width={150} height={150} src="/imgs/chameleon_art.JPG" alt="Chameleon" />
+                            <div className="img_overlay">
+                                <a className="songLink" href='https://open.spotify.com/track/1edrDCCYZnHl1ZITwbhZCv?si=415290383caa4268'>Chameleon</a>
+                            </div>
                             </div>
                         <p></p>
-                            <div class='musiccontainer'>
-                            <img width={70} height={70} src="/imgs/postit_art.JPG" alt="Post-it Notes" />
-                            <MusicLink href="https://open.spotify.com/track/79CMPiou9MRItInwoISxE2?si=601d0e7c35e14e9f"> Post-it Notes</MusicLink>
+                            <div className='img_container'> 
+                            <img width={150} height={150} src="/imgs/postit_art.JPG" alt="Post-it Notes"/>
+                                <div className="img_overlay">
+                                    <a className="songLink" href="https://open.spotify.com/track/79CMPiou9MRItInwoISxE2?si=601d0e7c35e14e9f">Post-it Notes</a>
+                                </div>
                             </div>
                         <p></p>
                         </div>
-                        <div class="column">
-                            <div class='musiccontainer'>
-                            <img width={70} height={70} src="/imgs/fall_art.JPG" alt="Fall" />
-                            <MusicLink href="https://open.spotify.com/track/2AnoStLX3FwUfguuSPOQEl?si=c4ba71de2f614fce"> Fall</MusicLink>
+                        <div class="musicColumn">
+                            <div className='img_container'> 
+                                <img width={150} height={150} src="/imgs/fall_art.JPG"  alt="Fall"/>
+                                <div className="img_overlay">
+                                    <a className="songLink" href="https://open.spotify.com/track/2AnoStLX3FwUfguuSPOQEl?si=c4ba71de2f614fce">Fall</a>
+                                </div>
                             </div>
                         <p></p>
-                            <div class='musiccontainer'>
-                            <img width={70} height={70} src="/imgs/placeholder_art.jpg" alt="Placeholder" />
-                            <MusicLink href="https://open.spotify.com/track/5dI1LlweTSR9VZ2ScDHFUx?si=8f409d8cf68048dc"> Placeholder</MusicLink>
+                            <div className='img_container'> 
+                                <img width={150} height={150} src="/imgs/placeholder_art.jpg"  alt="Placeholder"/>
+                                <div className="img_overlay">
+                                    <a className="songLink" href="https://open.spotify.com/track/5dI1LlweTSR9VZ2ScDHFUx?si=8f409d8cf68048dc">Placeholder</a>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -32,4 +32,4 @@ export const StyledLink = styled.a
   font-weight:bold;
   text-decoration: none;
   padding-right: 30px;
-  padding-left: 20px;`;
+  padding-left: 30px;`;
