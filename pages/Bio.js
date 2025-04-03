@@ -38,8 +38,6 @@ export default class Bio extends Component {
                                     In my free time, I enjoy running, hiking, singing, and writing and producing music. 
                                 </p>
                                 <p></p>
-                                <StyledLink href="/resumes_cvs/sadie_allen_cv_2024_public.pdf"> Curriculum Vitae </StyledLink>
-                                <p></p>
                                 <StyledLink href="/resumes_cvs/sadie_allen_resume_5_2025.pdf"> Resume </StyledLink>
                         </div>
                         </div>

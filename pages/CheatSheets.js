@@ -22,7 +22,7 @@ export default class CheatSheets extends Component {
                             Throughout college, I made a bunch of guides or "cheat sheets" for my engineering classes to help me study for tests. I've uploaded PDF versions as references for anyone who wants to use them! Hopefully I can type them up at some point as well.
                         </p>
                         <div class="row">
-                        <div class="column">
+                        <div class="column" style={{paddingRight: '10px'}}>
                             <p></p>
                             <p><StyledLink href="cheatsheets/advanced_optimization.pdf">Advanced Optimization</StyledLink></p>
                             <p></p>
@@ -34,7 +34,7 @@ export default class CheatSheets extends Component {
                             <p></p>
                             <p><StyledLink href="cheatsheets/linear_optimization.pdf">Linear Optimization</StyledLink></p>
                         </div>
-                        <div class="column">
+                        <div class="column" style={{paddingLeft: '10px'}}>
                             <p></p>
                             <p><StyledLink href="cheatsheets/machine_learning.pdf">Machine Learning</StyledLink></p>
                             <p></p>

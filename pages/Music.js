@@ -58,7 +58,9 @@ export default class Music extends Component {
                             </div>
                         </div>
                     </div>
-                    <h1 style={{ fontFamily: 'monospace' }}>Personal Playlists</h1>
+                    <h2>A Cappella Covers</h2>
+                    In addition to releasing full-length original music, I record short a cappella covers on <a style={{paddingRight: '3px', paddingLeft:'3px' }} target="_blank" href='https://www.instagram.com/music.esse/'>Instagram</a> and <a style={{paddingRight: '3px', paddingLeft:'3px' }} target="_blank" href='https://www.tiktok.com/@saddlepoint'>TikTok</a>, breaking down complex harmonies for people to enjoy.
+                    <h2>Personal Playlists</h2>
                     <p>Enjoy some hyper-specific playlists curated by me!</p>
                     <StyledLink href="https://open.spotify.com/playlist/2RfYWFbnkHNqK58NIuTS49?si=177955c615364eff">Men in *falsetto*</StyledLink>
                     <p></p>
